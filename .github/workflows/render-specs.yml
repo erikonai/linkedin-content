@@ -1,0 +1,56 @@
+name: Render specs to images
+
+on:
+  push:
+    paths:
+      - "specs/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Install Georgia and core fonts
+        run: |
+          echo "ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true" | sudo debconf-set-selections
+          sudo apt-get update -q
+          sudo apt-get install -y -q ttf-mscorefonts-installer imagemagick
+          sudo fc-cache -f
+
+      - name: Render any spec without a matching image
+        run: |
+          mkdir -p images
+          rendered=0
+          for spec in specs/*.html; do
+            [ -e "$spec" ] || continue
+            base=$(basename "$spec" .html)
+            out="images/${base}.jpeg"
+            if [ -f "$out" ]; then
+              echo "skip $base (image exists)"
+              continue
+            fi
+            echo "rendering $base"
+            google-chrome --headless=new --disable-gpu --hide-scrollbars \
+              --force-device-scale-factor=2 --window-size=1200,1200 \
+              --screenshot="/tmp/${base}.png" "file://$PWD/$spec"
+            convert "/tmp/${base}.png" -quality 90 "$out"
+            rendered=$((rendered+1))
+          done
+          echo "rendered=$rendered" >> "$GITHUB_ENV"
+
+      - name: Commit rendered images
+        if: env.rendered != '0'
+        run: |
+          git config user.name "render-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add images/
+          git commit -m "Render spec graphics [bot]"
+          git pull --rebase origin main
+          git push origin main
