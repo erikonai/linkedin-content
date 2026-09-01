@@ -2,10 +2,10 @@
 name: save-linkedin-inspiration
 description: >-
   Save LinkedIn posts Erik likes into the Notion Inspiration database from
-  screenshots, links, pasted copy, or a mix. Capture craft plus a Campfire
-  angle for his Applied AI / Ember-adoption voice. Use when he sends LinkedIn
-  URLs, swipe-file images, pasted posts, or asks to capture content as a
-  reference for future drafts.
+  screenshots, links, pasted copy, or a mix. Always store the original post
+  text in Notion (Original copy + page body), plus craft notes and a Campfire
+  angle. Use when he sends LinkedIn URLs, swipe-file images, pasted posts, or
+  asks to capture content as a reference for future drafts.
 ---
 
 # Save LinkedIn inspiration to Notion
@@ -57,27 +57,44 @@ customer reality and Ember. LinkedIn is the external half.
 If there is no image, no URL, and no post text, ask for one of those. Do not
 invent the post.
 
+## Saving the original content (required)
+
+A paraphrase-only row is incomplete. The original caption/body must live in
+Notion.
+
+1. **Paste:** the paste is the original. Save it verbatim.
+2. **Screenshot:** transcribe the visible caption and readable graphic labels
+   *in full*, not a summary. Upload images to **Screenshot** and put them at
+   the top of the page body.
+3. **Link:** fetch the URL. If the public page has the post, copy that
+   caption/body verbatim. Do not save comment threads.
+4. **Login wall / empty fetch:** still save the row with the URL. Ask once
+   for a screenshot or paste. Do not invent missing sentences. Note the gap
+   under **Fetch notes**.
+5. Write the full original into **Original copy**. Notion text fields cap
+   around 2,000 characters — if truncated, say so and keep the full text in
+   the page body.
+6. Repeat the full original under **Original post (verbatim)** on the page.
+   That section is the source of truth for later drafts.
+
 ## Links
 
 1. Dedup on **Link** first (strip `utm_*` and similar tracking params). If a
    row exists, update it instead of duplicating.
-2. Fetch the URL. Public articles often work. **LinkedIn commonly returns a
-   login wall** — still save the row with the URL in **Link**.
-3. On a login wall or empty fetch: save anyway, note it in the page body, and
-   ask once for a screenshot or paste. Do not block the save.
-4. Store the canonical URL in **Link**.
+2. Fetch the URL and save original copy as above.
+3. Store the canonical URL in **Link**.
 
 ## Screenshots
 
-1. Read the image. Transcribe hook and enough body to judge structure.
+1. Read the image. Transcribe the full visible caption, not a summary.
 2. Upload with Notion `create_file_upload` (`.png` / `.jpg` / `.webp`). POST
    to `upload_url` as multipart field `file` with the returned headers.
 3. Attach to **Screenshot** and place at the top of the page body.
 
 ## Pasted text
 
-Treat the paste as the original. Quote the hook. File the rest under
-**Transcribed / pasted copy**. Steal this stays pattern-only.
+Treat the paste as the original. File it under **Original copy** and
+**Original post (verbatim)**. Steal this stays pattern-only.
 
 ## Create the row
 
@@ -89,6 +106,8 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Steal this:** structure / pacing / visual move — never the wording
 - **Hook pattern:** Contrarian | Framework | Story | List | Confession | How-to | Hot take | Proof | Carousel
 - **Topics:** Cash, FP&A, Headcount, Revenue, Systems, Tax & compliance, Leadership, AI in finance, Ember, Adoption, Close & billing, Career, Writing craft
+- **Original copy:** verbatim post text (truncate at ~2,000 chars if needed;
+  full text still goes on the page)
 - **Campfire angle:** one or two sentences (Trust / Category / Adoption / Two-way / craft-only)
 - **Link:** URL string when one exists
 - **Source:** `Screenshot` | `Link` | `Paste` | `Mixed`
@@ -96,9 +115,9 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Captured:** today (`date:Captured:start` = YYYY-MM-DD, `is_datetime` = 0)
 - **Reusable:** `__YES__` unless off-brand bait or a negative example
 
-Page body: screenshot (if any), Link, Visible hook, Structure, What to copy /
-what not to copy, **Campfire angle** (repeat), Transcribed / pasted copy (if any),
-Fetch notes (if blocked), extra carousel slides.
+Page body, in this order: screenshots (if any), **Original post (verbatim)**,
+Link, Visible hook, Structure, What to copy / what not to copy, **Campfire
+angle** (repeat), Fetch notes (login wall, truncation, typos kept).
 
 ## Rules
 
@@ -110,6 +129,6 @@ Fetch notes (if blocked), extra carousel slides.
 
 ## Done
 
-Reply with each new or updated Notion URL, Name, Source, Hook pattern,
-Campfire angle type, and one sentence on what is now reusable. Then stop
-unless Erik also asked for drafts.
+Reply with each new or updated Notion URL, Name, Source, whether Original
+copy is complete, Hook pattern, Campfire angle type, and one sentence on
+what is now reusable. Then stop unless Erik also asked for drafts.
