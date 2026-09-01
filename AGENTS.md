@@ -1,6 +1,8 @@
 # Agent notes
 
-This repo is the graphic half of Erik's LinkedIn workflow. Notion is the review half.
+This repo is the graphic half of Erik's LinkedIn workflow. Notion is the review
+half. Voice: Campfire's Applied AI person — finance-native bridge between Ember
+and customers. Trust first. Ember named only when the workflow is specific.
 
 Before drafting posts or filing inspiration, load the matching skill:
 
@@ -9,4 +11,6 @@ Before drafting posts or filing inspiration, load the matching skill:
 
 Hub: https://app.notion.com/p/3ce5e66946278105a0a4fc496a44df22
 
-Never publish to LinkedIn. Create Notion rows at Ready for Review and stop.
+Every draft needs a Campfire benefit. Every inspiration row needs a Campfire
+angle. Never publish to LinkedIn. Create Notion rows at Ready for Review and
+stop.

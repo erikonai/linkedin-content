@@ -1,8 +1,11 @@
 # LinkedIn content
 
-Graphics, copy workflow, and Notion review queue for Erik Leavell's LinkedIn posts.
+Graphics, copy workflow, and Notion review queue for Erik Leavell's LinkedIn
+posts as Campfire's Applied AI voice (finance-native bridge between Ember and
+customers).
 
-Nothing in this repo publishes to LinkedIn. Drafts land in Notion at **Ready for Review**. Erik decides Post, Revise, or Kill.
+Nothing in this repo publishes to LinkedIn. Drafts land in Notion at **Ready
+for Review**. Erik decides Post, Revise, or Kill.
 
 ## Notion
 
@@ -17,8 +20,8 @@ Hub: [LinkedIn Content OS](https://app.notion.com/p/3ce5e66946278105a0a4fc496a44
 
 ## How to use it
 
-1. In Cursor (or any assistant with Notion MCP), send screenshots, LinkedIn/other URLs, or pasted copy of posts you like. The save-inspiration skill files each one in Notion with hook pattern, why it works, and what to steal (structure, not wording). A link is enough; LinkedIn login walls still get saved.
-2. Ask for a batch of LinkedIn drafts. The draft skill reads Inspiration plus `images/` / `specs/`, writes copy in the finance-operator voice, and creates Social Media Planner rows at Ready for Review.
+1. In Cursor (or any assistant with Notion MCP), send screenshots, LinkedIn/other URLs, or pasted copy of posts you like. The save-inspiration skill files each one in Notion with hook pattern, Campfire angle, and what to steal (structure, not wording). A link is enough; LinkedIn login walls still get saved.
+2. Ask for a batch of LinkedIn drafts. The draft skill reads Inspiration plus `images/` / `specs/`, writes copy in the operator + Applied AI voice, requires a Campfire benefit on every row, and creates Social Media Planner rows at Ready for Review.
 3. Review in Notion. Set **Decision** to Post, Revise, or Kill.
 
 ## Repo layout
@@ -29,4 +32,7 @@ Hub: [LinkedIn Content OS](https://app.notion.com/p/3ce5e66946278105a0a4fc496a44
 
 ## Voice
 
-Startup finance operator, not a thought leader. Specific artifacts and failure modes. Short lines. Dry punchlines. Personal, not company-branded.
+Startup finance operator, Applied AI as the throughline. Specific artifacts and
+failure modes. Short lines. Dry punchlines. Personal byline. Campfire as
+context when earned — never a product blog, feature tour, or join announcement.
+Every draft needs a **Campfire benefit** (Trust / Category / Adoption / Two-way).

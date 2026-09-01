@@ -2,9 +2,10 @@
 name: save-linkedin-inspiration
 description: >-
   Save LinkedIn posts Erik likes into the Notion Inspiration database from
-  screenshots, links, pasted copy, or a mix. Use when he sends LinkedIn URLs,
-  swipe-file images, pasted posts, or asks to capture content as a reference
-  for future drafts.
+  screenshots, links, pasted copy, or a mix. Capture craft plus a Campfire
+  angle for his Applied AI / Ember-adoption voice. Use when he sends LinkedIn
+  URLs, swipe-file images, pasted posts, or asks to capture content as a
+  reference for future drafts.
 ---
 
 # Save LinkedIn inspiration to Notion
@@ -32,6 +33,19 @@ Do not use this for drafts Erik wrote. Those go to Social Media Planner via
 - Data source: `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`
 
 Fetch the database before writing.
+
+## Role context (for Campfire angle only)
+
+Do not rewrite the original post into an Ember ad. Campfire angle answers:
+if Erik stole this *form* tomorrow, how would a CFO reading it help Ember get
+adopted or better-informed?
+
+Valid types (same as drafts): Trust | Category | Adoption | Two-way.
+"None — craft only" is allowed for pure writing-craft saves; say so.
+
+Erik is Campfire's Applied AI voice: finance-leader-to-finance-leader, deep
+with a few strategic accounts, playbooks CS can scale, two-way between
+customer reality and Ember. LinkedIn is the external half.
 
 ## Split the batch into posts, not file types
 
@@ -74,7 +88,8 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Why it works:** 1–3 sentences on craft, for a future assistant
 - **Steal this:** structure / pacing / visual move — never the wording
 - **Hook pattern:** Contrarian | Framework | Story | List | Confession | How-to | Hot take | Proof | Carousel
-- **Topics:** Cash, FP&A, Headcount, Revenue, Systems, Tax & compliance, Leadership, AI in finance, Career, Writing craft
+- **Topics:** Cash, FP&A, Headcount, Revenue, Systems, Tax & compliance, Leadership, AI in finance, Ember, Adoption, Close & billing, Career, Writing craft
+- **Campfire angle:** one or two sentences (Trust / Category / Adoption / Two-way / craft-only)
 - **Link:** URL string when one exists
 - **Source:** `Screenshot` | `Link` | `Paste` | `Mixed`
 - **Screenshot:** uploaded file ids when images exist
@@ -82,17 +97,19 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Reusable:** `__YES__` unless off-brand bait or a negative example
 
 Page body: screenshot (if any), Link, Visible hook, Structure, What to copy /
-what not to copy, Transcribed / pasted copy (if any), Fetch notes (if blocked),
-extra carousel slides.
+what not to copy, **Campfire angle** (repeat), Transcribed / pasted copy (if any),
+Fetch notes (if blocked), extra carousel slides.
 
 ## Rules
 
-- Steal form, not content. Erik's voice is a startup finance operator.
+- Steal form, not content. Erik's voice is a startup finance operator with
+  Applied AI as the throughline.
 - Unreadable screenshot or blocked LinkedIn URL: still save, Reusable honest.
 - Never publish, comment, or reshare on LinkedIn.
 - Do not recreate a post from memory.
 
 ## Done
 
-Reply with each new or updated Notion URL, Name, Source, Hook pattern, and one
-sentence on what is now reusable. Then stop unless Erik also asked for drafts.
+Reply with each new or updated Notion URL, Name, Source, Hook pattern,
+Campfire angle type, and one sentence on what is now reusable. Then stop
+unless Erik also asked for drafts.
