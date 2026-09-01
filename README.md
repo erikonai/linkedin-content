@@ -20,7 +20,7 @@ Hub: [LinkedIn Content OS](https://app.notion.com/p/3ce5e66946278105a0a4fc496a44
 
 ## How to use it
 
-1. In Cursor (or any assistant with Notion MCP), send screenshots, LinkedIn/other URLs, or pasted copy of posts you like. The save-inspiration skill files each one in Notion with the **original post text** (property Original copy + page body), hook pattern, Campfire angle, and what to steal (structure, not wording). A link is enough; LinkedIn login walls still get saved, and the assistant asks once for a screenshot or paste if the body is empty.
+1. In Cursor (or any assistant with Notion MCP), send screenshots, LinkedIn/other URLs, or pasted copy of posts you like. The save-inspiration skill files each one in Notion with the **original post text** in **Original copy**, plus hook pattern, Campfire angle, and what to steal (structure, not wording). A link is enough; LinkedIn login walls still get saved, and the assistant asks once for a screenshot or paste if the body is empty.
 2. Ask for a batch of LinkedIn drafts. The draft skill reads Inspiration plus `images/` / `specs/`, writes copy in the operator + Applied AI voice, requires a Campfire benefit on every row, and creates Social Media Planner rows at Ready for Review.
 3. Review in Notion. Set **Decision** to Post, Revise, or Kill.
 

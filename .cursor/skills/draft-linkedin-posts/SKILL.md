@@ -96,7 +96,7 @@ punchline in a navy bar. Render pipeline: `.github/workflows/render-specs.yml`.
 
 1. Query Inspiration where Reusable is yes, newest first (~15). Fetch 3–6
    full pages including screenshots. Use hook patterns, "Steal this",
-   **Original copy** / **Original post (verbatim)**, and **Campfire angle**.
+   **Original copy**, and **Campfire angle**.
    Steal form only — never the original wording.
 2. Query Social Media Planner for recent Ready for Review / Draft / Published
    titles so you do not duplicate a live draft.

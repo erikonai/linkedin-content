@@ -3,7 +3,7 @@ name: save-linkedin-inspiration
 description: >-
   Save LinkedIn posts Erik likes into the Notion Inspiration database from
   screenshots, links, pasted copy, or a mix. Always store the original post
-  text in Notion (Original copy + page body), plus craft notes and a Campfire
+  text in Notion in Original copy, plus craft notes and a Campfire
   angle. Use when he sends LinkedIn URLs, swipe-file images, pasted posts, or
   asks to capture content as a reference for future drafts.
 ---
@@ -71,11 +71,10 @@ Notion.
 4. **Login wall / empty fetch:** still save the row with the URL. Ask once
    for a screenshot or paste. Do not invent missing sentences. Note the gap
    under **Fetch notes**.
-5. Write the full original into **Original copy**. Notion text fields cap
-   around 2,000 characters — if truncated, say so and keep the full text in
-   the page body.
-6. Repeat the full original under **Original post (verbatim)** on the page.
-   That section is the source of truth for later drafts.
+5. Write the full original into **Original copy**. That property is the
+   source of truth. Notion text fields cap around 2,000 characters — if
+   truncated, say so under **Fetch notes**. Do not also paste the original
+   into the page body.
 
 ## Links
 
@@ -93,8 +92,8 @@ Notion.
 
 ## Pasted text
 
-Treat the paste as the original. File it under **Original copy** and
-**Original post (verbatim)**. Steal this stays pattern-only.
+Treat the paste as the original. File it under **Original copy**. Steal
+this stays pattern-only.
 
 ## Create the row
 
@@ -107,7 +106,7 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Hook pattern:** Contrarian | Framework | Story | List | Confession | How-to | Hot take | Proof | Carousel
 - **Topics:** Cash, FP&A, Headcount, Revenue, Systems, Tax & compliance, Leadership, AI in finance, Ember, Adoption, Close & billing, Career, Writing craft
 - **Original copy:** verbatim post text (truncate at ~2,000 chars if needed;
-  full text still goes on the page)
+  note that in Fetch notes)
 - **Campfire angle:** one or two sentences (Trust / Category / Adoption / Two-way / craft-only)
 - **Link:** URL string when one exists
 - **Source:** `Screenshot` | `Link` | `Paste` | `Mixed`
@@ -115,9 +114,9 @@ In `collection://d50dbad2-26ad-4349-b590-402ceaa3b662`:
 - **Captured:** today (`date:Captured:start` = YYYY-MM-DD, `is_datetime` = 0)
 - **Reusable:** `__YES__` unless off-brand bait or a negative example
 
-Page body, in this order: screenshots (if any), **Original post (verbatim)**,
-Link, Visible hook, Structure, What to copy / what not to copy, **Campfire
-angle** (repeat), Fetch notes (login wall, truncation, typos kept).
+Page body, in this order: screenshots (if any), Link, Visible hook,
+Structure, What to copy / what not to copy, **Campfire angle** (repeat),
+Fetch notes (login wall, truncation, typos kept).
 
 ## Rules
 
