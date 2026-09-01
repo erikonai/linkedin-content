@@ -17,8 +17,8 @@ If Notion is unreachable, draft in chat and say they were not saved.
 ## When this applies
 
 Erik wants LinkedIn copy sitting in Notion so he can decide whether to post.
-Do not use this to file screenshots of other people's posts — that is
-`.cursor/skills/save-linkedin-inspiration`.
+Do not use this to file other people's posts (screenshots, links, or pastes)
+— that is `.cursor/skills/save-linkedin-inspiration`.
 
 ## Destinations
 

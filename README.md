@@ -11,13 +11,13 @@ Hub: [LinkedIn Content OS](https://app.notion.com/p/3ce5e66946278105a0a4fc496a44
 | Piece | URL |
 | --- | --- |
 | Review queue (Social Media Planner) | https://app.notion.com/p/3ce5e6694627804792c0fedb8916f055 |
-| Inspiration (screenshot library) | https://app.notion.com/p/024d0c3975b344cf9328b3c8def35a70 |
+| Inspiration (screenshots, links, pastes) | https://app.notion.com/p/024d0c3975b344cf9328b3c8def35a70 |
 | Skill: draft posts for review | https://app.notion.com/p/3ce5e6694627817c9debf68c4e304436 |
-| Skill: save inspiration screenshots | https://app.notion.com/p/3ce5e669462781b79eb8d87f6fb3e5b2 |
+| Skill: save inspiration | https://app.notion.com/p/3ce5e669462781b79eb8d87f6fb3e5b2 |
 
 ## How to use it
 
-1. In Cursor (or any assistant with Notion MCP), send screenshots of LinkedIn posts you like. The save-inspiration skill files each one in Notion with hook pattern, why it works, and what to steal (structure, not wording).
+1. In Cursor (or any assistant with Notion MCP), send screenshots, LinkedIn/other URLs, or pasted copy of posts you like. The save-inspiration skill files each one in Notion with hook pattern, why it works, and what to steal (structure, not wording). A link is enough; LinkedIn login walls still get saved.
 2. Ask for a batch of LinkedIn drafts. The draft skill reads Inspiration plus `images/` / `specs/`, writes copy in the finance-operator voice, and creates Social Media Planner rows at Ready for Review.
 3. Review in Notion. Set **Decision** to Post, Revise, or Kill.
 
