@@ -1,58 +1,74 @@
 <meta charset="utf-8">
 <style>
+  @font-face { font-family: Denim; src: url("../brand/Denim-Medium.woff2") format("woff2"); font-weight: 500; }
+  @font-face { font-family: Denim; src: url("../brand/Denim-Regular.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: InterCF; src: url("../brand/Inter-Regular.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: InterCF; src: url("../brand/Inter-Medium.woff2") format("woff2"); font-weight: 500; }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   html, body { width: 1200px; height: 1200px; overflow: hidden; }
   body {
-    background: #EDF2F8;
-    font-family: Georgia, "Liberation Serif", serif;
-    color: #12263A;
-    padding: 72px 68px 60px 68px;
+    background: #F9F9F8;
+    font-family: InterCF, Arial, sans-serif;
+    color: #142D25;
+    padding: 56px 64px 48px 64px;
     display: flex;
     flex-direction: column;
   }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
   .kicker {
-    font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
-    font-size: 22px; letter-spacing: 4px; font-weight: 600;
-    color: #6B84A0; text-transform: uppercase; margin-bottom: 18px;
+    font-size: 18px; letter-spacing: 3px; font-weight: 500;
+    color: #FF862F; text-transform: uppercase;
   }
+  .mark { height: 44px; }
   h1 {
-    font-size: 56px; font-weight: 700;
-    color: #12263A; margin-bottom: 14px;
+    font-family: Denim, Arial, sans-serif;
+    font-size: 52px; font-weight: 500;
+    color: #142D25; margin: 10px 0 12px; line-height: 1.1;
   }
-  .subhead {
-    font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
-    font-size: 26px; color: #4E6580; margin-bottom: 40px;
-  }
-  table {
-    width: 100%; border-collapse: separate; border-spacing: 6px; flex: 1;
-    font-family: Arial, "Liberation Sans", Helvetica, sans-serif;
-  }
+  .subhead { font-size: 24px; color: #4E615B; margin-bottom: 36px; }
+  table { width: 100%; border-collapse: separate; border-spacing: 6px; flex: 1; }
   th {
-    background: #C3D2E2; color: #274056; font-size: 24px; font-weight: 700;
-    padding: 20px 22px; text-align: left; border-radius: 8px;
+    background: #E7E9E8; color: #142D25; font-size: 22px; font-weight: 500;
+    padding: 18px 20px; text-align: left; border-radius: 8px;
   }
+  th.good { background: #142D25; color: #F9F9F8; }
   td {
-    background: #FAFCFE; font-size: 23px; line-height: 1.35;
-    padding: 20px 22px; vertical-align: middle; border-radius: 8px;
+    background: #FFFFFF; font-size: 22px; line-height: 1.35;
+    padding: 18px 20px; vertical-align: middle; border-radius: 8px;
   }
   td.dim {
-    background: #DBE6F1; color: #274056; font-weight: 700; font-size: 23px;
-    width: 260px;
+    background: #FFF4ED; color: #142D25; font-weight: 500; font-size: 22px;
+    width: 250px;
   }
   .punchline {
-    margin-top: 36px; background: #16375A; color: #EDF2F8;
-    font-size: 28px; line-height: 1.4;
-    padding: 30px 38px; border-radius: 10px;
+    margin-top: 28px; background: #142D25; color: #F9F9F8;
+    font-family: Denim, Arial, sans-serif; font-size: 26px; line-height: 1.35;
+    padding: 28px 34px; border-radius: 10px;
   }
+  .footer {
+    margin-top: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .footer img { height: 28px; }
 </style>
-<div class="kicker">Revenue Recognition</div>
+<div class="top">
+  <div class="kicker">Revenue Recognition</div>
+  <img class="mark" src="../brand/campfire-flame.png" alt="">
+</div>
 <h1>In the GL, or it isn&rsquo;t the books</h1>
 <div class="subhead">A sidecar waterfall is a summary, not a ledger</div>
 <table>
   <tr>
     <th></th>
     <th>Beside the books</th>
-    <th>In the GL</th>
+    <th class="good">In the GL</th>
   </tr>
   <tr>
     <td class="dim">Where 606 lives</td>
@@ -76,3 +92,4 @@
   </tr>
 </table>
 <div class="punchline">If revenue recognition sits beside the ledger, the books are a summary.</div>
+<div class="footer"><img src="../brand/campfire-logo.png" alt="Campfire"></div>
