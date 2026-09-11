@@ -10,7 +10,7 @@
     background: #F9F9F8;
     font-family: InterCF, Arial, sans-serif;
     color: #142D25;
-    padding: 56px 64px 48px 64px;
+    padding: 64px 72px 52px 72px;
     display: flex;
     flex-direction: column;
   }
@@ -18,40 +18,37 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 8px;
   }
   .kicker {
     font-size: 18px; letter-spacing: 3px; font-weight: 500;
     color: #FF862F; text-transform: uppercase;
   }
   .mark { height: 44px; }
-  h1 {
+  blockquote {
     font-family: Denim, Arial, sans-serif;
-    font-size: 52px; font-weight: 500;
-    color: #142D25; margin: 10px 0 12px; line-height: 1.1;
+    font-size: 64px; font-weight: 500;
+    line-height: 1.12;
+    color: #142D25;
+    margin: 48px 0 36px;
+    max-width: 980px;
   }
-  .subhead { font-size: 24px; color: #4E615B; margin-bottom: 36px; }
-  table { width: 100%; border-collapse: separate; border-spacing: 6px; flex: 1; }
-  th {
-    background: #E7E9E8; color: #142D25; font-size: 22px; font-weight: 500;
-    padding: 18px 20px; text-align: left; border-radius: 8px;
+  .rule {
+    width: 72px; height: 4px; background: #FF862F;
+    margin-bottom: 36px; border-radius: 2px;
   }
-  th.good { background: #142D25; color: #F9F9F8; }
-  td {
-    background: #FFFFFF; font-size: 22px; line-height: 1.35;
-    padding: 18px 20px; vertical-align: middle; border-radius: 8px;
+  .support {
+    font-size: 28px; line-height: 1.45; color: #4E615B;
+    max-width: 860px;
   }
-  td.dim {
-    background: #FFF4ED; color: #142D25; font-weight: 500; font-size: 22px;
-    width: 250px;
-  }
+  .support p + p { margin-top: 16px; }
   .punchline {
-    margin-top: 28px; background: #142D25; color: #F9F9F8;
-    font-family: Denim, Arial, sans-serif; font-size: 26px; line-height: 1.35;
-    padding: 28px 34px; border-radius: 10px;
+    margin-top: auto;
+    background: #142D25; color: #F9F9F8;
+    font-family: Denim, Arial, sans-serif; font-size: 28px; line-height: 1.35;
+    padding: 32px 36px; border-radius: 10px;
   }
   .footer {
-    margin-top: 22px;
+    margin-top: 28px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -62,34 +59,11 @@
   <div class="kicker">Revenue Recognition</div>
   <img class="mark" src="../brand/campfire-flame.png" alt="">
 </div>
-<h1>In the GL, or it isn&rsquo;t the books</h1>
-<div class="subhead">A sidecar waterfall is a summary, not a ledger</div>
-<table>
-  <tr>
-    <th></th>
-    <th>Beside the books</th>
-    <th class="good">In the GL</th>
-  </tr>
-  <tr>
-    <td class="dim">Where 606 lives</td>
-    <td>Excel, a sidecar, or a warehouse pull</td>
-    <td>Contract &rarr; schedule &rarr; journal entry</td>
-  </tr>
-  <tr>
-    <td class="dim">What the auditor sees</td>
-    <td>A file the GL has never met</td>
-    <td>A paper trail in the same system</td>
-  </tr>
-  <tr>
-    <td class="dim">Usage / prepaid</td>
-    <td>One person still owns the waterfall</td>
-    <td>Policy posts; a human approves</td>
-  </tr>
-  <tr>
-    <td class="dim">Board number</td>
-    <td>Rebuilt from the sidecar</td>
-    <td>The close and the file match</td>
-  </tr>
-</table>
-<div class="punchline">If revenue recognition sits beside the ledger, the books are a summary.</div>
+<blockquote>606 is not done until it posts.</blockquote>
+<div class="rule"></div>
+<div class="support">
+  <p>The auditor asked for the deferred rollforward.</p>
+  <p>We had a beautiful waterfall. It lived in a file the GL had never met.</p>
+</div>
+<div class="punchline">If revenue recognition sits beside the books, the books are a story.</div>
 <div class="footer"><img src="../brand/campfire-logo.png" alt="Campfire"></div>
