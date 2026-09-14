@@ -40,3 +40,13 @@ Cron: `CRON_TZ=America/New_York 0 9 * * 1-5`
 1. Delete leftover **Not approved** rows from a prior day.
 2. If today's 9:00 AM ET slot already has 3 Post Ideas, stop (do not duplicate).
 3. Otherwise create 3 Post Ideas for that slot. Never publish to LinkedIn.
+
+## Form and voice (Erik 2026-09-14)
+
+Steal **form**, not a slogan extracted from the inspiration.
+
+- If Steal this is a timestamped interrupt log, the post **is** a log. No lesson paragraph.
+- If Steal this is short stacked lines / a two-party disagreement, write stacked lines. Not a manifesto around one punchline.
+- If Steal this is a 3×3, restate the same idea as job / seat / tool (or job / logins / person), then a personal closer.
+- Personable: first person who sat in the room. Contractions. A specific Monday. “I’ve sat next to that person.”
+- Do not write “I am arguing that.” Do not boil the post down to a quote-card thesis with a lecture underneath.

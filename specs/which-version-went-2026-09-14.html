@@ -24,27 +24,29 @@
     color: #FF862F; text-transform: uppercase;
   }
   .mark { height: 44px; }
-  blockquote {
+  h1 {
     font-family: Denim, Arial, sans-serif;
-    font-size: 48px; font-weight: 500;
-    line-height: 1.14;
+    font-size: 42px; font-weight: 500;
+    line-height: 1.18;
     color: #142D25;
-    margin: 48px 0 36px;
-    max-width: 1000px;
+    margin: 36px 0 28px;
+    max-width: 980px;
   }
   .rule {
     width: 72px; height: 4px; background: #FF862F;
-    margin-bottom: 36px; border-radius: 2px;
+    margin-bottom: 32px; border-radius: 2px;
   }
-  .support {
-    font-size: 28px; line-height: 1.45; color: #4E615B;
-    max-width: 900px;
+  .log { display: flex; flex-direction: column; gap: 22px; }
+  .row { display: flex; gap: 28px; align-items: baseline; }
+  .time {
+    font-size: 22px; font-weight: 500; color: #FF862F;
+    letter-spacing: 0.04em; width: 92px; flex-shrink: 0;
   }
-  .support p + p { margin-top: 16px; }
+  .line { font-size: 28px; line-height: 1.35; color: #4E615B; }
   .punchline {
     margin-top: auto;
     background: #142D25; color: #F9F9F8;
-    font-family: Denim, Arial, sans-serif; font-size: 28px; line-height: 1.35;
+    font-family: Denim, Arial, sans-serif; font-size: 26px; line-height: 1.35;
     padding: 32px 36px; border-radius: 10px;
   }
   .footer {
@@ -56,14 +58,16 @@
   .footer img { height: 28px; }
 </style>
 <div class="top">
-  <div class="kicker">Board pack</div>
+  <div class="kicker">The file</div>
   <img class="mark" src="../brand/campfire-flame.png" alt="">
 </div>
-<blockquote>The file that went to the board should be a pull, not a memory.</blockquote>
+<h1>What a day looks like when you “have the file.”</h1>
 <div class="rule"></div>
-<div class="support">
-  <p>The ask was which version went out.</p>
-  <p>The answer lived in a folder named FINAL_v7_USE_THIS.</p>
+<div class="log">
+  <div class="row"><span class="time">14:00</span><span class="line">CFO: can you send the pack.</span></div>
+  <div class="row"><span class="time">14:08</span><span class="line">“The pack” is four files.</span></div>
+  <div class="row"><span class="time">15:30</span><span class="line">CFO: which version went to the board.</span></div>
+  <div class="row"><span class="time">16:47</span><span class="line">Folder: USE_THIS_actual</span></div>
 </div>
-<div class="punchline">If you cannot re-pull it an hour later, you had a moment, not a pack.</div>
+<div class="punchline">I could not tell you, an hour later, how to pull the same numbers again.</div>
 <div class="footer"><img src="../brand/campfire-logo.png" alt="Campfire"></div>
