@@ -43,10 +43,11 @@ Cron: `CRON_TZ=America/New_York 0 9 * * 1-5`
 
 ## Form and voice (Erik 2026-09-14)
 
-Steal **form**, not a slogan extracted from the inspiration.
+Steal specificity from inspiration, not the set piece.
 
-- If Steal this is a timestamped interrupt log, the post **is** a log. No lesson paragraph.
-- If Steal this is short stacked lines / a two-party disagreement, write stacked lines. Not a manifesto around one punchline.
-- If Steal this is a 3×3, restate the same idea as job / seat / tool (or job / logins / person), then a personal closer.
-- Personable: first person who sat in the room. Contractions. A specific Monday. “I’ve sat next to that person.”
-- Do not write “I am arguing that.” Do not boil the post down to a quote-card thesis with a lecture underneath.
+- A timestamped log, a 3×3, or a two-character sketch reads as LinkedIn theater if Erik did not live that day.
+- Write what would survive a Controller saying “that’s not how it works.”
+- Realistic: one conversation, one close artifact, how the work actually moves (waiting on the firm, pasting into last quarter’s deck, doing the messy rec in the sheet).
+- Erik is the person in the room asking questions, not the hero of a reconstructed Monday.
+- No fake folder names, fake timestamps, or “craziest part of all of this.”
+- Overheard lines a Controller would actually say beat reconstructed calendars.
