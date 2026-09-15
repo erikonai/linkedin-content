@@ -51,4 +51,4 @@ Steal specificity from inspiration, not the set piece.
 - Erik is the person in the room asking questions, not the hero of a reconstructed Monday.
 - No fake folder names, fake timestamps, or “craziest part of all of this.”
 - Overheard lines a Controller would actually say beat reconstructed calendars.
-- Required closer, two beats: (1) How do you all solve for this? (2) A world where this scar does not exist because Ember holds the workflow. Name Ember once. If the scene already named Ember, the world-line names the missing artifact instead. Not “What do you think?” Not a demo.
+- Ending required, form must vary. Leave a next thought that grew out of this scene: a specific operator question, a bar Erik would count, or one Ember-shaped sentence. Scan the last 6 Post Idea endings and do not reuse them. Banned as a formula: “How do you all solve for this?”, “What if this didn’t have to exist?”, “That’s the world Ember is for.” Name Ember at most once. If the scene already named Ember, the ending does not.
