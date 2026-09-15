@@ -51,3 +51,4 @@ Steal specificity from inspiration, not the set piece.
 - Erik is the person in the room asking questions, not the hero of a reconstructed Monday.
 - No fake folder names, fake timestamps, or “craziest part of all of this.”
 - Overheard lines a Controller would actually say beat reconstructed calendars.
+- Required closer, two beats: (1) How do you all solve for this? (2) A world where this scar does not exist because Ember holds the workflow. Name Ember once. If the scene already named Ember, the world-line names the missing artifact instead. Not “What do you think?” Not a demo.
