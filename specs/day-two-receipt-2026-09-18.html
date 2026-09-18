@@ -1,0 +1,81 @@
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 1200px; overflow: hidden; }
+  body {
+    background: #F9F9F8;
+    font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #142D25;
+    padding: 64px 68px 56px 68px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .flame {
+    position: absolute; top: 48px; right: 56px;
+    width: 18px; height: 28px;
+    background: #FF862F;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+  }
+  .kicker {
+    font-size: 20px; letter-spacing: 3.5px; font-weight: 600;
+    color: #4E615B; text-transform: uppercase; margin-bottom: 16px;
+  }
+  h1 {
+    font-size: 50px; font-weight: 700; letter-spacing: -0.5px;
+    color: #142D25; margin-bottom: 10px; line-height: 1.12;
+  }
+  .subhead { font-size: 24px; color: #4E615B; margin-bottom: 32px; }
+  .stack { display: flex; flex-direction: column; gap: 14px; flex: 1; }
+  .card {
+    background: #FFFFFF; border-radius: 10px; padding: 28px 32px;
+    border: 1px solid #E4E7E4; display: grid;
+    grid-template-columns: 72px 1fr; gap: 18px; align-items: center;
+    flex: 1;
+  }
+  .num {
+    font-size: 36px; font-weight: 700; color: #FF862F; line-height: 1;
+    padding-top: 2px;
+  }
+  .label { font-size: 18px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #4E615B; margin-bottom: 6px; }
+  .body { font-size: 24px; line-height: 1.35; color: #142D25; }
+  .punchline {
+    margin-top: 24px; background: #142D25; color: #F9F9F8;
+    font-size: 26px; line-height: 1.35;
+    padding: 26px 34px; border-radius: 10px;
+  }
+  .punchline span { color: #FF862F; font-weight: 700; }
+  .footer {
+    margin-top: 18px; font-size: 14px; letter-spacing: 3px;
+    color: #4E615B; font-weight: 600;
+  }
+</style>
+<div class="flame"></div>
+<div class="kicker">Day 2</div>
+<h1>The reminder went out.<br>Day 2 didn’t.</h1>
+<div class="subhead">A 30-day lock is a calendar. A control is a name on the exception.</div>
+<div class="stack">
+  <div class="card">
+    <div class="num">01</div>
+    <div>
+      <div class="label">The reminder</div>
+      <div class="body">Ping. Follow-up. A list of names. Two people already attached on the day.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="num">02</div>
+    <div>
+      <div class="label">The exception</div>
+      <div class="body">The list comes back. The PDF still isn’t on the charge. Nobody owns the hole.</div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="num">03</div>
+    <div>
+      <div class="label">The control</div>
+      <div class="body">Receipt already on the charge. A named owner when it isn’t. Then it counts.</div>
+    </div>
+  </div>
+</div>
+<div class="punchline">A lock is a date. <span>The chase is not the receipt.</span></div>
+<div class="footer">CAMPFIRE</div>
