@@ -45,6 +45,14 @@ Cron: `CRON_TZ=America/New_York 0 9 * * 1-5`
 
 Steal specificity from inspiration, not the set piece.
 
+## Graphics (do not ship three quote cards)
+
+Fetch Inspiration screenshots and skim older `images/` maps before drawing. Steal **visual form**, not the set piece: tables, four-column driver maps, numbered stacks, bingo, two-column translators, workflow steps. Never clone a $20M waterfall, a 13-item permission list, or april-blue grids (`#EDF2F8` / `#16375A`).
+
+Campfire palette only: paper `#F9F9F8`, forest `#142D25`, flame `#FF862F`, sage `#4E615B`, Denim titles, Inter body, 1200×1200. Flame mark top-right, wordmark in the footer.
+
+A batch of 3 must use **three different layouts**. A quote-card (kicker + giant quote + one note) is a last resort for one scar/wit post, never the default, never all three. Density should match July/Aug maps (full canvas of cells), not a sparse sentence on cream.
+
 - A timestamped log, a 3×3, or a two-character sketch reads as LinkedIn theater if Erik did not live that day.
 - Write what would survive a Controller saying “that’s not how it works.”
 - Realistic: one conversation, one close artifact, how the work actually moves (waiting on the firm, pasting into last quarter’s deck, doing the messy rec in the sheet).

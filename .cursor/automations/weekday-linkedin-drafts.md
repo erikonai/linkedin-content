@@ -23,7 +23,8 @@ Also read:
    - Write to Controller / Head of Accounting and CFO / VP Finance.
    - Human thought leadership: first-person scene or a single thesis. No comparison-table carousels. No Review notes section.
    - Ending required, form must vary. Across the 3 posts use three different shapes: a specific operator question, a bar Erik would count, or one Ember-shaped sentence. Scan the last 6 Post Idea endings. Banned as a formula: “How do you all solve for this?”, “What if this didn’t have to exist?”, “That’s the world Ember is for.” Name Ember at most once per post. Not a demo CTA.
-   - Steal specificity from Inspiration, not the set piece. No fake logs, 3×3s, or two-character sketches Erik did not live. Campfire-branded 1200×1200 graphic per post (paper `#F9F9F8`, forest `#142D25`, flame `#FF862F`, Denim/Inter, flame mark, wordmark).
+   - Steal specificity from Inspiration, not the set piece. No fake logs, 3×3s, or two-character sketches Erik did not live.
+   - Graphics: look at Inspiration screenshots and older `images/` maps first. Steal visual form (tables, four-column maps, numbered stacks, bingo, two-column translators). **Do not ship three quote cards.** Three different layouts per batch. Campfire palette only (paper `#F9F9F8`, forest `#142D25`, flame `#FF862F`, sage `#4E615B`, Denim/Inter, flame mark, wordmark). No april blue. No cloned $20M waterfalls.
 4. Commit specs/images on a `cursor/` branch, push, open or update a PR.
 5. Reply with a table: Post name, Hook, Campfire benefit type, Inspired by, Notion URL, graphic yes/no. Stop.
 
